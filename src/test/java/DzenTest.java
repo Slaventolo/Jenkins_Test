@@ -7,6 +7,6 @@ public class DzenTest extends BaseTest {
     public void testDzenIcon() {
         MainPage mainPage = new MainPage();
         mainPage.openWebSite(DZEN_URL);
-        //mainPage.hasSearch();
+        mainPage.hasSearch();
     }
 }
