@@ -9,4 +9,6 @@ public class DzenTest extends BaseTest {
         mainPage.openWebSite(DZEN_URL);
         mainPage.hasSearch();
     }
+
+    // коммент
 }
