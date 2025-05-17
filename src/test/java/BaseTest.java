@@ -10,7 +10,7 @@ public abstract class BaseTest {
         Configuration.browser = "chrome";
         Configuration.webdriverLogsEnabled = true;
         Configuration.browserSize = "1600x780";
-        Configuration.headless = true;
+        Configuration.headless = false;
     }
 
     @BeforeEach
